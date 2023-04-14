@@ -70,6 +70,11 @@ on boot
     setprop persist.vendor.qg_coff_gain 1
     setprop persist.vendor.qg_cld_coff_gain 1.5
 
+# Health
+on boot
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/power_supply/battery/input_suspend
+
 on property:sys.boot_completed=1
     mkdir /data/vendor/camera/model 0777 cameraserver audio
     mkdir /data/vendor/camera/model/rt_model 0777 cameraserver audio
@@ -92,9 +97,7 @@ on property:vendor.camera.bokeh.disable=0
     setprop persist.vendor.camera.bokeh.disable 0
 
 on property:ro.boot.product.hardware.sku=nfc
-    enable qti_esepowermanager_service_1_1
     enable vendor.nfc_hal_service
-    enable vendor.secure_element_hal_service
 
 service nv_mac /vendor/bin/nv_mac
     class late_start
@@ -102,23 +105,10 @@ service nv_mac /vendor/bin/nv_mac
     group system inet net_admin wifi net_raw
     oneshot
 
-service qti_esepowermanager_service_1_1 /vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-    override
-    class hal
-    user system
-    group nfc system
-    disabled
-
-service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc_snxxx@1.2-service
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
     class hal
     user nfc
     group nfc
-    disabled
-
-service vendor.secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element_snxxx@1.2-service
-    override
-    class hal
-    user secure_element
-    group secure_element
+    writepid /dev/cpuset/system-background/tasks
     disabled

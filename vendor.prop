@@ -90,6 +90,7 @@ vendor.gralloc.disable_ubwc=0
 ro.surface_flinger.protected_contents=true
 vendor.display.enable_perf_hint_large_comp_cycle=1
 
+
 # Display (Phase Offsets)
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
@@ -110,6 +111,9 @@ drm.service.enabled=true
 
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
+# FM
+vendor.hw.fm.init=0
 
 # Keystore
 ro.hardware.keystore_desede=true
@@ -193,3 +197,9 @@ ro.soc.model=SM7225
 
 # Time
 persist.timed.enable=true
+
+# Blur
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
+ro.launcher.blur.appLaunch=0
