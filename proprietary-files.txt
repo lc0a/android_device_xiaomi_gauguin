@@ -1563,10 +1563,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/bin/ssr_setup
 
 # Thermal
-system/lib/android.hardware.thermal@1.0.so
-system/lib/android.hardware.thermal@2.0.so
-system/lib64/android.hardware.thermal@1.0.so
-system/lib64/android.hardware.thermal@2.0.so
 system_ext/lib/libthermalclient.qti.so
 system_ext/lib64/libthermalclient.qti.so
 vendor/bin/mi_thermald
