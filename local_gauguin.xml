@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="gitlab-lc0a"
+        fetch="https://gitlab.com/lc0a"
+    />  
+    <remote name="github-lc0a"
+        fetch="https://github.com/lc0a"
+    />
+
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
+
+    <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="gitlab-lc0a" revision="lineage-20.0-lc" />
+
+    <project path="device/xiaomi/gauguin" name="android_device_xiaomi_gauguin" remote="github-lc0a" revision="lineage-20" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-20" />
+
+    <project path="kernel/xiaomi/gauguin" name="android_kernel_xiaomi_gauguin" remote="gitlab-lc0a" revision="lineage-20-lc-stable" />
+    <!-- To build kernel with KernelSU, comment the line above and uncomment the line below.  -->
+    <!-- <project path="kernel/xiaomi/gauguin" name="android_kernel_xiaomi_gauguin" remote="gitlab-lc0a" revision="lineage-20-lc-ksu" /> -->
+    <!-- The branch lineage-20-lc-ksu contains submodule. DO NOT FORGET to update the submodule after repo sync. -->
+
+</manifest>
