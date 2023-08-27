@@ -1,0 +1,22 @@
+{
+	"response": [
+		{
+			"datetime": 1691981888,
+			"filename": "lineage-20.0-20230814-UNOFFICIAL-gauguin.zip",
+			"id": "93ea5534c30e05eeacef3888a94c87410b0edd68",
+			"romtype": "UNOFFICIAL",
+			"size": 1305153713,
+			"url": "https://github.com/lc0a/android_device_xiaomi_gauguin/releases/download/20230814/lineage-20.0-20230814-UNOFFICIAL-gauguin.zip",
+			"version": "20.0"
+		},
+		{
+			"datetime": 1692688072,
+			"filename": "lineage-20.0-20230822-UNOFFICIAL-gauguin.zip",
+			"id": "169efad6ff303696bd56291130f21e2318fd73b0",
+			"romtype": "UNOFFICIAL",
+			"size": 1307393848,
+			"url": "https://github.com/lc0a/android_device_xiaomi_gauguin/releases/download/20230822/lineage-20.0-20230822-UNOFFICIAL-gauguin.zip",
+			"version": "20.0"
+		}
+	]
+}
