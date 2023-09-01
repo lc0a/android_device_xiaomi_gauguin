@@ -51,7 +51,7 @@ Download from [Releases](https://github.com/lc0a/android_device_xiaomi_gauguin/r
 
 * [Additional manifest](local_gauguin.xml) for repo
 * [Device tree](https://github.com/lc0a/android_device_xiaomi_gauguin/tree/lineage-20)
-* Kernel source ( [Vanilla](https://gitlab.com/lc0a/android_kernel_xiaomi_gauguin/tree/lineage-20-lc-stable) | [With KernelSU](https://gitlab.com/lc0a/android_kernel_xiaomi_gauguin/-/tree/lineage-20-lc-ksu) )
+* Kernel source ( [Vanilla](https://gitlab.com/lc0a/android_kernel_xiaomi_gauguin/tree/lineage-20-lc-stable) | [~~With KernelSU~~](https://gitlab.com/lc0a/android_kernel_xiaomi_gauguin/-/tree/lineage-20-lc-ksu) (deprecated since [20230901](https://github.com/lc0a/android_device_xiaomi_gauguin/releases/tag/20230901)) )
 * [Proprietary files](https://gitlab.com/lc0a/proprietary_gauguin)
 
 ### Credits

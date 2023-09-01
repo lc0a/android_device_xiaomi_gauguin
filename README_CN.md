@@ -50,7 +50,8 @@
 
 * Repo 的 [附加清单](local_gauguin.xml)
 * [Device tree](https://github.com/lc0a/android_device_xiaomi_gauguin/tree/lineage-20)
-* 内核源码（ [原版](https://gitlab.com/lc0a/android_kernel_xiaomi_gauguin/tree/lineage-20-lc-stable) | [带KernelSU](https://gitlab.com/lc0a/android_kernel_xiaomi_gauguin/-/tree/lineage-20-lc-ksu) ）
+* 内核源码【 [原版](https://gitlab.com/lc0a/android_kernel_xiaomi_gauguin/tree/lineage-20-lc-stable) | [~~带KernelSU~~](https://gitlab.com/lc0a/android_kernel_xiaomi_gauguin/-/tree/lineage-20-lc-ksu) （从 [20230901](https://github.com/lc0a/android_device_xiaomi_gauguin/releases/tag/20230901) 起不再提供）】
+
 * [专有文件](https://gitlab.com/lc0a/proprietary_gauguin)
 
 ### 致谢
