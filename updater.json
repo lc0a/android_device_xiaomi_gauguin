@@ -53,6 +53,15 @@
 			"size": 1298585059,
 			"url": "https://github.com/lc0a/android_device_xiaomi_gauguin/releases/download/20230920/lineage-20.0-20230920-UNOFFICIAL-gauguin.zip",
 			"version": "20.0"
+		},
+		{
+			"datetime": 1697003370,
+			"filename": "lineage-20.0-20231011-UNOFFICIAL-gauguin.zip",
+			"id": "0dcb0a98c060fb138c62d1a60a83f94c9054675e",
+			"romtype": "UNOFFICIAL",
+			"size": 1299031490,
+			"url": "https://github.com/lc0a/android_device_xiaomi_gauguin/releases/download/20231011/lineage-20.0-20231011-UNOFFICIAL-gauguin.zip",
+			"version": "20.0"
 		}
 	]
 }
