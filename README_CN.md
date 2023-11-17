@@ -1,5 +1,7 @@
 ## [ROM] [GAUGUIN] [A13] [非官方] LineageOS 20 for Redmi Note 9 Pro 5G / Mi 10T Lite / Mi 10i
 
+**提示** : 由 [kawaaii](https://github.com/kawaaii) 维护的 [LineageOS 20 官方版本](https://download.lineageos.org/devices/gauguin/builds) 已开放下载！不再建议使用此处提供的非官方版本，建议您使用官方版本！
+
 [English](README.md) | 简体中文
 
 

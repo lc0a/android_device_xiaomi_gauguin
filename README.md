@@ -2,6 +2,8 @@
 
 English | [简体中文](README_CN.md)
 
+**NOTICE** : [Official builds of LineageOS 20 for gauguin](https://download.lineageos.org/devices/gauguin/builds), which is maintained by [kawaaii](https://github.com/kawaaii), is available! It is recommended to use official builds instead of unofficial ones from here！
+
 ```
 * Your warranty is now void.
 *
